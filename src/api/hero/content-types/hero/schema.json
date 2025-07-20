@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "buttonText1": {
+      "type": "string"
+    },
+    "buttonText2": {
+      "type": "string"
+    },
+    "buttonUrl1": {
+      "type": "string"
+    },
+    "buttonUrl2": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
