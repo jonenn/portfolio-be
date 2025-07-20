@@ -1,20 +1,17 @@
 {
-  "kind": "singleType",
-  "collectionName": "heroes",
+  "collectionName": "components_homepage_heroes",
   "info": {
-    "singularName": "hero",
-    "pluralName": "heroes",
     "displayName": "Hero"
   },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "content": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
       "type": "string"
     },
     "buttonText1": {
@@ -28,9 +25,7 @@
     },
     "buttonUrl2": {
       "type": "string"
-    },
-    "image": {
-      "type": "string"
     }
-  }
+  },
+  "config": {}
 }

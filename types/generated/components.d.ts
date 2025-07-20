@@ -1,5 +1,21 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface HomepageHero extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_heroes';
+  info: {
+    displayName: 'Hero';
+  };
+  attributes: {
+    buttonText1: Schema.Attribute.String;
+    buttonText2: Schema.Attribute.String;
+    buttonUrl1: Schema.Attribute.String;
+    buttonUrl2: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface PortfolioProjectcard extends Struct.ComponentSchema {
   collectionName: 'components_portfolio_projectcards';
   info: {
@@ -49,6 +65,7 @@ export interface StackTechItem extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'homepage.hero': HomepageHero;
       'portfolio.projectcard': PortfolioProjectcard;
       'stack.tech-item': StackTechItem;
     }
