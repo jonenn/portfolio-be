@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stack_tech_items",
+  "info": {
+    "displayName": "techItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "iconsm": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

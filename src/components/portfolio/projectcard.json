@@ -1,0 +1,127 @@
+{
+  "collectionName": "components_portfolio_projectcards",
+  "info": {
+    "displayName": "projectcard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "designLink": {
+      "type": "string"
+    },
+    "deploymentLink": {
+      "type": "string"
+    },
+    "tech1": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech2": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech3": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech4": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech5": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech6": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech7": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech8": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech9": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech10": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech11": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech12": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech13": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech14": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech15": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech16": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech17": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech18": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech19": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech20": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    },
+    "tech21": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
