@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_homepage_heroes",
+  "collectionName": "components_common_components_heroes",
   "info": {
     "displayName": "Hero"
   },
@@ -11,9 +11,6 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "type": "string"
-    },
     "buttonText1": {
       "type": "string"
     },
@@ -24,6 +21,9 @@
       "type": "string"
     },
     "buttonUrl2": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   },

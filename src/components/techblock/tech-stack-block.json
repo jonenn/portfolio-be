@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_techblock_tech_stack_blocks",
+  "info": {
+    "displayName": "TechStackBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tech": {
+      "type": "component",
+      "component": "stack.tech-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,7 +1,7 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
-export interface HomepageHero extends Struct.ComponentSchema {
-  collectionName: 'components_homepage_heroes';
+export interface CommonComponentsHero extends Struct.ComponentSchema {
+  collectionName: 'components_common_components_heroes';
   info: {
     displayName: 'Hero';
   };
@@ -62,12 +62,24 @@ export interface StackTechItem extends Struct.ComponentSchema {
   };
 }
 
+export interface TechblockTechStackBlock extends Struct.ComponentSchema {
+  collectionName: 'components_techblock_tech_stack_blocks';
+  info: {
+    displayName: 'TechStackBlock';
+  };
+  attributes: {
+    tech: Schema.Attribute.Component<'stack.tech-item', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
-      'homepage.hero': HomepageHero;
+      'common-components.hero': CommonComponentsHero;
       'portfolio.projectcard': PortfolioProjectcard;
       'stack.tech-item': StackTechItem;
+      'techblock.tech-stack-block': TechblockTechStackBlock;
     }
   }
 }

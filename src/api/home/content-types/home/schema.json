@@ -13,13 +13,13 @@
   "attributes": {
     "hero": {
       "type": "component",
-      "component": "homepage.hero",
+      "component": "common-components.hero",
       "repeatable": false
     },
-    "tech": {
+    "techlist": {
       "type": "component",
-      "component": "stack.tech-item",
-      "repeatable": true
+      "component": "techblock.tech-stack-block",
+      "repeatable": false
     }
   }
 }
