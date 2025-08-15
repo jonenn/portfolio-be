@@ -27,6 +27,7 @@ export interface PortfolioProjectcard extends Struct.ComponentSchema {
     designLink: Schema.Attribute.String;
     label1: Schema.Attribute.String;
     label2: Schema.Attribute.String;
+    screenshot: Schema.Attribute.String;
     tech1: Schema.Attribute.Component<'stack.tech-item', true>;
     title: Schema.Attribute.String;
     year: Schema.Attribute.String;
