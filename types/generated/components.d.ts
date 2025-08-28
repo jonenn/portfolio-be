@@ -30,6 +30,7 @@ export interface PortfolioProjectcard extends Struct.ComponentSchema {
     screenshot: Schema.Attribute.String;
     tech1: Schema.Attribute.Component<'stack.tech-item', true>;
     title: Schema.Attribute.String;
+    windowTitle: Schema.Attribute.String;
     year: Schema.Attribute.String;
   };
 }

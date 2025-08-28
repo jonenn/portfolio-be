@@ -11,9 +11,6 @@
     "title": {
       "type": "string"
     },
-    "screenshot": {
-      "type": "string"
-    },
     "description": {
       "type": "text"
     },
@@ -32,6 +29,12 @@
       "type": "string"
     },
     "label2": {
+      "type": "string"
+    },
+    "screenshot": {
+      "type": "string"
+    },
+    "windowTitle": {
       "type": "string"
     }
   },
